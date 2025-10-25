@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BrightPath Academy | Grade 5 Math Practice</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="navbar">
+        <div class="brand">BrightPath Academy</div>
+        <ul class="nav-links">
+          <li><a href="#practice">Math Practice</a></li>
+          <li><a href="#skills">Skills Map</a></li>
+          <li><a href="#progress">Progress Tools</a></li>
+          <li><a href="#resources">Parent Resources</a></li>
+        </ul>
+      </nav>
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1>Grade 5 Math Adventure</h1>
+          <p>
+            Build confidence with fun, curriculum-aligned practice sessions crafted
+            just for your child. Pick a skill, tackle interactive challenges, and
+            celebrate new milestones every day.
+          </p>
+          <button class="cta" data-scroll="#practice">Start Practicing</button>
+        </div>
+        <div class="hero-illustration" aria-hidden="true">
+          <div class="orbital">
+            <span class="planet">✶</span>
+            <span class="satellite">➗</span>
+            <span class="satellite">✚</span>
+            <span class="satellite">✖</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="practice" class="practice">
+        <div class="section-header">
+          <h2>Daily Math Practice</h2>
+          <p>
+            Choose a topic to launch a short session. Each quiz adapts in real
+            time and celebrates every correct step.
+          </p>
+        </div>
+        <div class="practice-layout">
+          <aside class="practice-menu" aria-label="Practice categories">
+            <button class="menu-button active" data-topic="fractions">
+              Fractions &amp; Mixed Numbers
+            </button>
+            <button class="menu-button" data-topic="decimals">
+              Decimals &amp; Place Value
+            </button>
+            <button class="menu-button" data-topic="geometry">
+              Geometry &amp; Measurement
+            </button>
+            <button class="menu-button" data-topic="algebra">
+              Patterns &amp; Algebraic Thinking
+            </button>
+            <button class="menu-button" data-topic="wordProblems">
+              Multi-step Word Problems
+            </button>
+          </aside>
+          <section class="practice-playground" aria-live="polite">
+            <div class="question-meta">
+              <span class="topic-badge">Fractions &amp; Mixed Numbers</span>
+              <span class="score" aria-live="polite">Score: 0 / 0</span>
+            </div>
+            <div class="question-card">
+              <p class="question-text"></p>
+              <div class="choices" role="group" aria-label="Answer choices"></div>
+              <div class="feedback" role="status"></div>
+            </div>
+            <div class="playground-actions">
+              <button class="action" data-action="hint">Need a Hint</button>
+              <button class="action" data-action="next">Next Question</button>
+              <button class="action secondary" data-action="reset">
+                Reset Topic
+              </button>
+            </div>
+          </section>
+        </div>
+      </section>
+
+      <section id="skills" class="skills">
+        <div class="section-header">
+          <h2>Grade 5 Skills Map</h2>
+          <p>
+            These strands mirror the topics taught in school. Work through them in
+            order or mix things up to keep practice fresh.
+          </p>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card">
+            <h3>Number Sense</h3>
+            <ul>
+              <li>Place value through millions and thousandths</li>
+              <li>Compare, order, and round decimals</li>
+              <li>Use expanded and word form fluently</li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <h3>Fractions</h3>
+            <ul>
+              <li>Add and subtract unlike denominators</li>
+              <li>Multiply fractions &amp; mixed numbers</li>
+              <li>Relate fractions, decimals, and percents</li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <h3>Algebraic Thinking</h3>
+            <ul>
+              <li>Analyze patterns and sequences</li>
+              <li>Write and evaluate simple expressions</li>
+              <li>Solve two-step equations</li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <h3>Geometry &amp; Measurement</h3>
+            <ul>
+              <li>Classify triangles &amp; quadrilaterals</li>
+              <li>Calculate area, volume, and perimeter</li>
+              <li>Interpret coordinate planes</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="progress" class="progress">
+        <div class="section-header">
+          <h2>Progress &amp; Motivation</h2>
+          <p>
+            Track achievements together and celebrate effort with gentle
+            reminders and printable rewards.
+          </p>
+        </div>
+        <div class="progress-grid">
+          <article class="progress-card">
+            <h3>Weekly Check-ins</h3>
+            <p>
+              Capture quick reflections using a printable journal page. Jot down
+              what felt easy, what felt tricky, and one goal for the next week.
+            </p>
+          </article>
+          <article class="progress-card">
+            <h3>Growth Badges</h3>
+            <p>
+              Earn badges for streaks, accuracy, and perseverance. Display them on
+              a shared tracker board or in a digital scrapbook.
+            </p>
+          </article>
+          <article class="progress-card">
+            <h3>Family Challenges</h3>
+            <p>
+              Try five-minute math talks at dinner. Your child explains a concept
+              using the <em>teacher toolkit</em> cards for vocabulary support.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="resources" class="resources">
+        <div class="section-header">
+          <h2>Parent Resources</h2>
+          <p>
+            Use these guides to keep practice positive and connected to what
+            happens in the classroom.
+          </p>
+        </div>
+        <div class="resource-grid">
+          <article class="resource-card">
+            <h3>Session Planner</h3>
+            <p>
+              A printable one-page planner helps you map 15-minute sessions with a
+              warm-up, main practice, and reflection prompt.
+            </p>
+            <a href="#" class="resource-link">Download PDF</a>
+          </article>
+          <article class="resource-card">
+            <h3>Math Talk Prompts</h3>
+            <p>
+              Conversation starters to help your child explain their thinking and
+              connect math to daily life.
+            </p>
+            <a href="#" class="resource-link">View prompts</a>
+          </article>
+          <article class="resource-card">
+            <h3>Progress Tracker Template</h3>
+            <p>
+              Editable spreadsheet to log scores, notes, and goals for each topic.
+            </p>
+            <a href="#" class="resource-link">Open tracker</a>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Made with care for curious minds © 2024 BrightPath Academy</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
